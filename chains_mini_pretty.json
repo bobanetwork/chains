@@ -2235,19 +2235,6 @@
   "faucets": ["https://faucet.bcsdev.io"],
   "infoURL": "https://blockchainstation.io"
 }, {
-  "name": "Factory 127 Testnet",
-  "chainId": 721,
-  "shortName": "tfeth",
-  "networkId": 721,
-  "nativeCurrency": {
-    "name": "Factory 127 Token",
-    "symbol": "FETH",
-    "decimals": 18
-  },
-  "rpc": [],
-  "faucets": [],
-  "infoURL": "https://www.factory127.com"
-}, {
   "name": "Lycan Chain",
   "chainId": 721,
   "shortName": "LYC",
@@ -4367,6 +4354,19 @@
   "faucets": [],
   "infoURL": "https://www.xixoio.com/"
 }, {
+  "name": "0XTade",
+  "chainId": 10248,
+  "shortName": "0xt",
+  "networkId": 10248,
+  "nativeCurrency": {
+    "name": "0XT",
+    "symbol": "0XT",
+    "decimals": 18
+  },
+  "rpc": ["https://node.0xtchain.com"],
+  "faucets": [],
+  "infoURL": "https://www.0xtrade.finance/"
+}, {
   "name": "CryptoCoinPay",
   "chainId": 10823,
   "shortName": "CCP",
@@ -4850,7 +4850,7 @@
 }, {
   "name": "Celo Mainnet",
   "chainId": 42220,
-  "shortName": "CELO",
+  "shortName": "celo",
   "networkId": 42220,
   "nativeCurrency": {
     "name": "CELO",
