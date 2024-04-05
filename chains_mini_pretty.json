@@ -350,19 +350,6 @@
   "faucets": [],
   "infoURL": "https://shibchain.org"
 }, {
-  "name": "Boba Network Rinkeby Testnet",
-  "chainId": 28,
-  "shortName": "BobaRinkeby",
-  "networkId": 28,
-  "nativeCurrency": {
-    "name": "Ether",
-    "symbol": "ETH",
-    "decimals": 18
-  },
-  "rpc": ["https://rinkeby.boba.network/"],
-  "faucets": [],
-  "infoURL": "https://boba.network"
-}, {
   "name": "Genesis L1",
   "chainId": 29,
   "shortName": "L1",
@@ -2858,19 +2845,6 @@
   "rpc": ["https://sepolia.era.zksync.dev", "https://zksync-sepolia.drpc.org", "wss://zksync-sepolia.drpc.org"],
   "faucets": [],
   "infoURL": "https://zksync.io/"
-}, {
-  "name": "Bobaopera",
-  "chainId": 301,
-  "shortName": "Bobaopera",
-  "networkId": 301,
-  "nativeCurrency": {
-    "name": "Boba Token",
-    "symbol": "BOBA",
-    "decimals": 18
-  },
-  "rpc": ["https://bobaopera.boba.network", "wss://wss.bobaopera.boba.network", "https://replica.bobaopera.boba.network", "wss://replica-wss.bobaopera.boba.network"],
-  "faucets": [],
-  "infoURL": "https://boba.network"
 }, {
   "name": "Neurochain Testnet",
   "chainId": 303,
@@ -5693,32 +5667,6 @@
   "faucets": ["https://faucet.testnet.swisstronik.com"],
   "infoURL": "https://www.swisstronik.com"
 }, {
-  "name": "Bobabeam",
-  "chainId": 1294,
-  "shortName": "Bobabeam",
-  "networkId": 1294,
-  "nativeCurrency": {
-    "name": "Boba Token",
-    "symbol": "BOBA",
-    "decimals": 18
-  },
-  "rpc": ["https://bobabeam.boba.network", "wss://wss.bobabeam.boba.network", "https://replica.bobabeam.boba.network", "wss://replica-wss.bobabeam.boba.network"],
-  "faucets": [],
-  "infoURL": "https://boba.network"
-}, {
-  "name": "Bobabase Testnet",
-  "chainId": 1297,
-  "shortName": "Bobabase",
-  "networkId": 1297,
-  "nativeCurrency": {
-    "name": "Boba Token",
-    "symbol": "BOBA",
-    "decimals": 18
-  },
-  "rpc": ["https://bobabase.boba.network", "wss://wss.bobabase.boba.network", "https://replica.bobabase.boba.network", "wss://replica-wss.bobabase.boba.network"],
-  "faucets": [],
-  "infoURL": "https://boba.network"
-}, {
   "name": "Dos Fuji Subnet",
   "chainId": 1311,
   "shortName": "TDOS",
@@ -7760,19 +7708,6 @@
   "faucets": [],
   "infoURL": "https://whitepaper.anttime.net/overview/anttime"
 }, {
-  "name": "Boba Network Goerli Testnet",
-  "chainId": 2888,
-  "shortName": "BobaGoerli",
-  "networkId": 2888,
-  "nativeCurrency": {
-    "name": "Goerli Ether",
-    "symbol": "ETH",
-    "decimals": 18
-  },
-  "rpc": ["https://goerli.boba.network/", "wss://wss.goerli.boba.network/"],
-  "faucets": [],
-  "infoURL": "https://boba.network"
-}, {
   "name": "Elux Chain",
   "chainId": 2907,
   "shortName": "ELUX",
@@ -8436,19 +8371,6 @@
   "faucets": [],
   "infoURL": "https://docs.xen.network/go-x1/"
 }, {
-  "name": "Bobaopera Testnet",
-  "chainId": 4051,
-  "shortName": "BobaoperaTestnet",
-  "networkId": 4051,
-  "nativeCurrency": {
-    "name": "Boba Token",
-    "symbol": "BOBA",
-    "decimals": 18
-  },
-  "rpc": ["https://testnet.bobaopera.boba.network", "wss://wss.testnet.bobaopera.boba.network", "https://replica.testnet.bobaopera.boba.network", "wss://replica-wss.testnet.bobaopera.boba.network"],
-  "faucets": [],
-  "infoURL": "https://boba.network"
-}, {
   "name": "Nahmii 3 Mainnet",
   "chainId": 4061,
   "shortName": "Nahmii3Mainnet",
@@ -8656,19 +8578,6 @@
   "rpc": ["https://chain.nexiv2.nexilix.com", "https://rpc.chainv1.nexi.technology"],
   "faucets": [],
   "infoURL": "https://www.nexi.technology/"
-}, {
-  "name": "Bobafuji Testnet",
-  "chainId": 4328,
-  "shortName": "BobaFujiTestnet",
-  "networkId": 4328,
-  "nativeCurrency": {
-    "name": "Boba Token",
-    "symbol": "BOBA",
-    "decimals": 18
-  },
-  "rpc": ["https://testnet.avax.boba.network", "wss://wss.testnet.avax.boba.network", "https://replica.testnet.avax.boba.network"],
-  "faucets": [],
-  "infoURL": "https://boba.network"
 }, {
   "name": "Beam",
   "chainId": 4337,
@@ -12440,6 +12349,19 @@
   "faucets": [],
   "infoURL": "https://community.optimism.io/docs/developers/bedrock"
 }, {
+  "name": "Boba Sepolia",
+  "chainId": 28882,
+  "shortName": "BobaSepolia",
+  "networkId": 28882,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia.boba.network", "https://boba-sepolia.gateway.tenderly.co", "https://gateway.tenderly.co/public/boba-sepolia", "wss://boba-sepolia.gateway.tenderly.co/", "wss://gateway.tenderly.co/public/boba-sepolia"],
+  "faucets": ["https://www.l2faucet.com/boba"],
+  "infoURL": "https://boba.network"
+}, {
   "name": "HYCHAIN Testnet",
   "chainId": 29112,
   "shortName": "hychain-testnet",
@@ -12998,19 +12920,6 @@
   "rpc": ["https://api.avax.network/ext/bc/C/rpc", "https://avalanche-c-chain-rpc.publicnode.com", "wss://avalanche-c-chain-rpc.publicnode.com"],
   "faucets": [],
   "infoURL": "https://www.avax.network/"
-}, {
-  "name": "Boba Avax",
-  "chainId": 43288,
-  "shortName": "bobaavax",
-  "networkId": 43288,
-  "nativeCurrency": {
-    "name": "Boba Token",
-    "symbol": "BOBA",
-    "decimals": 18
-  },
-  "rpc": ["https://avax.boba.network", "wss://wss.avax.boba.network", "https://replica.avax.boba.network", "wss://replica-wss.avax.boba.network"],
-  "faucets": [],
-  "infoURL": "https://docs.boba.network/for-developers/network-avalanche"
 }, {
   "name": "ZKFair Testnet",
   "chainId": 43851,
