@@ -1,7 +1,10 @@
 {
   "name": "edeXa Testnet",
   "chain": "edeXa TestNetwork",
-  "rpc": ["https://testnet.edexa.com/rpc"],
+  "rpc": [
+    "https://testnet.edexa.com/rpc",
+    "https://io-dataseed1.testnet.edexa.io-market.com/rpc"
+  ],
   "faucets": ["https://faucet.edexa.com/"],
   "nativeCurrency": {
     "name": "EDEXA",
@@ -12,11 +15,12 @@
   "shortName": "edx",
   "chainId": 1995,
   "networkId": 1995,
+  "slip44": 1,
   "icon": "edexa",
   "explorers": [
     {
       "name": "edexa-testnet",
-      "url": "https://explorer.edexa.com",
+      "url": "https://explorer.testnet.edexa.com",
       "standard": "EIP3091"
     }
   ]
